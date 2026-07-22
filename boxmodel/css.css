@@ -1,0 +1,7 @@
+div{
+    padding: 32px 64px 18px;
+    box-sizing: border-box;
+    border-width: 20px;
+    border-color: blue;
+    border-style: solid;
+} 

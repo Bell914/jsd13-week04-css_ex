@@ -1,0 +1,86 @@
+/* ============================================
+   SCRATCH — COLOR SCHEME
+   Write all CSS from scratch.
+   
+   Choose your own color scheme, then apply it.
+   Define at minimum these colors:
+   --primary, --secondary, --accent, --bg, --text
+
+
+   TASKS:
+   1. :root — define 5 CSS custom properties (--primary, --secondary, --accent, --bg, --text)
+   2. body — background var(--bg), color var(--text), font-family sans-serif
+   3. .site-header — background var(--primary), padding, white text
+   4. .site-header a — color white, no underline, hover underline
+   5. .content — padding 40px 20px, max-width 800px, margin auto
+   6. .btn-primary — background var(--primary), white text, padding, border-radius
+   7. .btn-secondary — background transparent, border var(--secondary), color var(--secondary)
+   8. .site-footer — background var(--secondary), white text, text-align center, padding
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   :root {
+  --primary: #845EC2;
+  --secondary: #FF6F91;
+  --accent: #FFC75F;
+  --bg: #F9F871;
+  --text: #2D2D2D;
+}
+
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+}
+
+
+.site-header {
+  background: var(--primary);
+  padding: 20px;
+  color: white;
+}
+
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-header a:hover {
+  text-decoration: underline;
+}
+
+
+.content {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+}
+
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+
+.site-footer {
+  background: var(--secondary);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+   
