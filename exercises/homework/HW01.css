@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*กล่องนอกสุด */
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  overflow: hidden; 
+}
+
+/* ส่วนหัวข้อ */
+.header {
+  background-color: #f5f5f5;
+  padding: 24px 24px 16px 24px;
+}
+
+/* หัวข้อใหญ่ */
+.header h1 {
+  margin: 0 0 12px 0;
+  font-size: 32px;
+  font-weight: 800;
+  color: #0a2540;
+  line-height: 1.15;
+}
+
+/*  คำอธิบาย */
+.header p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+/* รูปภาพ */
+.photo {
+  width: 100%;
+  display: block; /* สำคัญ: กันช่องว่างใต้รูป */
+}
